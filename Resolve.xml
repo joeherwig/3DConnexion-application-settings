@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--
+(c) Copyright 3Dconnexion. All rights reserved. 
+$Revision: 16358 $
+-->
+<AppCfg Default="false" xmlns="" CfgFormatVersion="1.3" ThisFileVersion="1.11">
+  <AppInfo>
+    <Signature>
+      <Name>DaVinci Resolve</Name>
+      <ExecutableName>Resolve.exe</ExecutableName>
+    </Signature>
+    <Options />
+  </AppInfo>
+  <CfgProperties>
+    <ID>ID_DaVinci Resolve</ID>
+    <Name>DaVinci Resolve</Name>
+    <InheritsFromID>ID_Default_KMJ_Cfg</InheritsFromID>
+  </CfgProperties>
+  <Devices>
+    <Device>
+      <ID>ID_Standard_3D_Mouse</ID>
+      <AxisBank>
+        <Name>Default</Name>
+        <ID>Default</ID>
+        <Axis>
+          <Enabled>true</Enabled>
+          <Input>
+            <ActionID>HIDMultiAxis_X</ActionID>
+            <Min>-512</Min>
+            <Max>511</Max>
+          </Input>
+          <Output>
+            <ActionID>HIDMultiAxis_X</ActionID>
+            <Reversed>true</Reversed>
+          </Output>
+        </Axis>
+        <Axis>
+          <Enabled>true</Enabled>
+          <Input>
+            <ActionID>HIDMultiAxis_Y</ActionID>
+            <Min>-512</Min>
+            <Max>511</Max>
+          </Input>
+          <Output>
+            <ActionID>HIDMultiAxis_Y</ActionID>
+          </Output>
+        </Axis>
+        <Axis>
+          <Enabled>true</Enabled>
+          <Input>
+            <ActionID>HIDMultiAxis_Z</ActionID>
+            <Min>-512</Min>
+            <Max>511</Max>
+          </Input>
+          <Output>
+            <ActionID>HIDMultiAxis_Z</ActionID>
+          </Output>
+        </Axis>
+        <Axis>
+          <Enabled>true</Enabled>
+          <Input>
+            <ActionID>HIDMultiAxis_Rx</ActionID>
+            <Min>-512</Min>
+            <Max>511</Max>
+          </Input>
+          <Output>
+            <ActionID>HIDMouse_Wheel</ActionID>
+          </Output>
+        </Axis>
+        <Axis>
+          <Enabled>true</Enabled>
+          <Input>
+            <ActionID>HIDMultiAxis_Ry</ActionID>
+            <Min>-512</Min>
+            <Max>-200</Max>
+          </Input>
+          <Output>
+            <ActionID>KB_Keystroke</ActionID>
+            <Scale>1.00</Scale>
+            <MaxEventRate>1.00</MaxEventRate>
+            <Modifiers>
+              <Modifier>Control</Modifier>
+            </Modifiers>
+            <KeyStroke>
+              <Key>+</Key>
+            </KeyStroke>
+          </Output>
+        </Axis>
+        <Axis>
+          <Enabled>true</Enabled>
+          <Input>
+            <ActionID>HIDMultiAxis_Ry</ActionID>
+            <Min>512</Min>
+            <Max>200</Max>
+          </Input>
+          <Output>
+            <ActionID>KB_Keystroke</ActionID>
+            <Scale>1.00</Scale>
+            <MaxEventRate>1.00</MaxEventRate>
+            <Modifiers>
+              <Modifier>Control</Modifier>
+            </Modifiers>
+            <KeyStroke>
+              <Key>-</Key>
+            </KeyStroke>
+          </Output>
+        </Axis>
+        <Axis>
+          <Enabled>true</Enabled>
+          <Input>
+            <ActionID>HIDMultiAxis_Rz</ActionID>
+            <Min>-512</Min>
+            <Max>511</Max>
+          </Input>
+          <Output>
+            <ActionID>HIDMultiAxis_Rz</ActionID>
+          </Output>
+        </Axis>
+      </AxisBank>
+    </Device>
+    <Device>
+      <ID>ID_ProductID_C626</ID>
+      <ButtonBank Default="true">
+        <Name>STR_DEFAULT_BUTTONBANK</Name>
+        <ID>Default</ID>
+        <Button>
+          <Input>
+            <ActionID>HIDButton_1</ActionID>
+          </Input>
+          <Output>
+            <ActionID>KB_Space</ActionID>
+          </Output>
+        </Button>
+      </ButtonBank>
+    </Device>
+  </Devices>
+  <AuthorInfo>
+    <DriverVersion>17.6.3.16588</DriverVersion>
+    <LastChange>
+      <Tool>3DxSmartUI.exe</Tool>
+      <Version>1.2.19261.16572</Version>
+      <Date>6/13/2020 6:59:04 PM UTC</Date>
+      <User>J.Herwig</User>
+    </LastChange>
+  </AuthorInfo>
+</AppCfg>
