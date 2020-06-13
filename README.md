@@ -3,7 +3,7 @@ Individual application settings for 3DConnexion SpaceMouse
 
 # FolderPath
 ```
-C:\Users\j.herwig\AppData\Roaming\3Dconnexion\3DxWare\Cfg
+C:\Users\<yourName>\AppData\Roaming\3Dconnexion\3DxWare\Cfg
 ```
 
 # Examples how to code
