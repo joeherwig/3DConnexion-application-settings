@@ -5,6 +5,10 @@ Individual application settings for 3DConnexion SpaceMouse
 ```
 C:\Users\<yourName>\AppData\Roaming\3Dconnexion\3DxWare\Cfg
 ```
+Or if you don't want to modify the path:
+```
+%AppData%\Roaming\3Dconnexion\3DxWare\Cfg
+```
 
 # Examples how to code
 you find at https://www.3dconnexion.com/forum/viewtopic.php?t=38192.
